@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+.card {
+  border-radius: 16px;
+  width: 700px;
+}
+
+.attribution {
+  margin-top: 5%;
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.img-parfum {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  object-fit: cover;
+}
+
+.title-one {
+  margin-top: 10%;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+}
+.title {
+  margin-top: 5%;
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+  width: 90%;
+}
+
+.general-price {
+  padding: 0 !important;
+  margin-top: 8%;
+}
+
+.price {
+  padding: 0 !important;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+}
+
+.price-two {
+  margin-top: 3%;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+
+.description {
+  margin-top: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  width: 90%;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+
+.col-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button-div {
+  margin-top: 5%;
+}
+
+.confirmation-button {
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  width: 90%;
+  padding: 4%;
+  border-radius: 10px;
+  border: none;
+}
+
+button.confirmation-button:focus {
+  border: none;
+  outline: none;
+}
+
+button.confirmation-button:hover {
+  border: none;
+  outline: none;
+  background-color: hsl(212, 21%, 14%);
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 320px;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  .confirmation-button {
+    width: 100%;
+  }
+
+  .formobile {
+    height: 250px !important;
+  }
+
+  .img-parfum {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
